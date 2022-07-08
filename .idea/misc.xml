@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable-v24/searchbarbg.xml" value="0.2135" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/booking.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/buttombg.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/closeicon.xml" value="0.2555" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/help.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/homeicon.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/imageroundcornerbg.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/invitecornerroundbggg.xml" value="0.2545" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/invitelinearlayout.xml" value="0.2545" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/like.xml" value="0.2135" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/ratingbg.xml" value="0.2135" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/share.xml" value="0.2555" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/user.xml" value="0.198" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_faqs.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_search.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_search2.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_bookings_.xml" value="0.25" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_help_.xml" value="0.2359375" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_home_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_invite_.xml" value="0.264" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_offer_.xml" value="0.264" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/gridelayour_sample.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/left_side_help_drawer_sample.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/recommneded_sample_card.xml" value="0.536" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/menu/faqsmenu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/menu/menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
