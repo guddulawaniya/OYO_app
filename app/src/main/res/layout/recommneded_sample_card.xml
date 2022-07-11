@@ -140,10 +140,10 @@
                 android:layout_height="25dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:tint="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/like" />
+                app:srcCompat="@drawable/like"
+                app:tint="@color/white" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -17,9 +17,9 @@
         android:layout_marginTop="4dp"
         android:background="@drawable/buttombg"
         app:elevation="8dp"
-        app:itemIconTint="#F60606"
+        app:itemIconTint="@color/iconchangecolorbuttomnavbar"
         app:itemRippleColor="#B31004"
-        app:itemTextColor="@color/black"
+        app:itemTextColor="@color/iconchangecolorbuttomnavbar"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.473"

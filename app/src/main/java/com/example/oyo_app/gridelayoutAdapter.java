@@ -1,6 +1,7 @@
 package com.example.oyo_app;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,13 @@ public class gridelayoutAdapter extends RecyclerView.Adapter<gridelayoutAdapter.
     public void onBindViewHolder(@NonNull viewholder holder, int position) {
         Models models = list.get(position);
         holder.imageView.setImageResource(models.getGrideimage());
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context,detail_Activity.class);
+                context.startActivity(intent);
+            }
+        });
 
     }
 

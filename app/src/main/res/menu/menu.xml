@@ -11,7 +11,7 @@
         android:title="Bookings"/>
     <item
         android:id="@+id/offer_Fragment"
-        android:icon="@drawable/user"
+        android:icon="@drawable/offericon"
         android:title="Offers"/>
     <item
         android:id="@+id/invite_Fragment"
