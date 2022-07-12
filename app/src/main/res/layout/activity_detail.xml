@@ -4,35 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/bg"
     tools:context=".detail_Activity">
 
-    <com.smarteist.autoimageslider.SliderView
-        android:id="@+id/fullimagesliderdetail"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:sliderAnimationDuration="600"
-        app:sliderAutoCycleDirection="back_and_forth"
-        app:sliderAutoCycleEnabled="true"
-        app:sliderIndicatorAnimationDuration="600"
-        app:sliderIndicatorGravity="center_horizontal|bottom"
-        app:sliderIndicatorMargin="15dp"
-        app:sliderIndicatorOrientation="horizontal"
-        app:sliderIndicatorPadding="3dp"
-        app:sliderIndicatorRadius="2dp"
-        app:sliderIndicatorSelectedColor="#F30606"
-        app:sliderIndicatorUnselectedColor="#2196F3"
-        app:sliderScrollTimeInSec="2"
-        app:sliderStartAutoCycle="true"
-        tools:ignore="MissingClass,MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent">
 
-    </com.smarteist.autoimageslider.SliderView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/fullimagesliderdetail"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#F30606"
+                app:sliderIndicatorUnselectedColor="#2196F3"
+                app:sliderScrollTimeInSec="2"
+                app:sliderStartAutoCycle="true"
+                tools:ignore="MissingClass,MissingConstraints">
+
+            </com.smarteist.autoimageslider.SliderView>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fullimagesliderdetail">
+
+                <include layout="@layout/products_title_detail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best Offers for you"
+                        android:textColor="#131313" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="All Offers (16)"
+                        android:textColor="#DF0E0E" />
+
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/bestofferforyouRecyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/detalbackbutton"
@@ -41,7 +105,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/detailiconbg"
-        android:padding="3dp"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back_arrow"
@@ -54,7 +118,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/detailiconbg"
-        android:padding="3dp"
+        android:padding="5dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/like"
@@ -67,11 +131,10 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/detailiconbg"
-        android:padding="3dp"
+        android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shareicon"
         app:tint="#252121" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

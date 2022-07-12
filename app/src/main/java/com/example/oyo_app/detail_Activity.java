@@ -1,6 +1,7 @@
 package com.example.oyo_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.view.View;
 import com.example.oyo_app.databinding.ActivityDetailBinding;
 import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
 import com.smarteist.autoimageslider.SliderAnimations;
+
+import java.util.ArrayList;
 
 
 public class detail_Activity extends AppCompatActivity {
@@ -22,6 +25,18 @@ public class detail_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityDetailBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        ArrayList<Models> offerlist =new ArrayList<>();
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+        offerlist.add(new Models(R.drawable.oyoimage));
+
+        binding.bestofferforyouRecyclerview.setAdapter(new offerAdapter(offerlist,this));
+        binding.bestofferforyouRecyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
+
 
         detailproductsliderAdapter sliderAdapter = new detailproductsliderAdapter(images,this);
         binding.fullimagesliderdetail.setSliderAdapter(sliderAdapter);
