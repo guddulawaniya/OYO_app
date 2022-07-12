@@ -37,16 +37,18 @@
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="-20dp"
                 android:background="@drawable/ratingbg"
                 android:drawableRight="@drawable/star"
                 android:drawablePadding="8dp"
-                android:padding="5dp"
                 android:text="2.3"
+                android:gravity=""
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imagerecommended" />
 
@@ -55,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="OYO 44361 Shri L.."
+                android:text="Shri L.."
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/textView15"
                 app:layout_constraintStart_toStartOf="@+id/textView12"
@@ -76,7 +78,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"

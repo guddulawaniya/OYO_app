@@ -2,8 +2,8 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer"
     android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".home_fragment">
@@ -79,7 +79,7 @@
                     </androidx.appcompat.widget.Toolbar>
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/homesearchbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|bottom"
@@ -112,394 +112,19 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <HorizontalScrollView
-                    android:id="@+id/horizontalScrollView"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/cityrecyclerview"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="10dp"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:id="@+id/profile_image"
-                                android:layout_width="60dp"
-                                android:layout_height="60dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginBottom="3dp"
-                                android:background="@drawable/locationbg"
-                                android:padding="15dp"
-                                android:src="@drawable/loaction"
-
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Nearby"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Mathura"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Alighad"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Chhata"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Kosi"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginEnd="12dp"
-                                android:padding="5dp"
-                                android:src="@drawable/vindravan"
-                                app:civ_border_color="#FF000000"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/userName"
-                                app:layout_constraintStart_toEndOf="@+id/back"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                tools:ignore="MissingClass,MissingConstraints" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="vindravan"
-                                android:textColor="#918B8B" />
-                        </LinearLayout>
-                    </LinearLayout>
-
-
-                </HorizontalScrollView>
+                        android:layout_marginStart="15dp" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/textView10"
@@ -507,7 +132,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="20dp"
-                    android:text="Recommended OYO For you"
+                    android:text="Recommended For you"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -534,14 +159,5 @@
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
-
-<!--        <com.google.android.material.navigation.NavigationView-->
-<!--            android:id="@+id/navigationView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_gravity="left">-->
-
-<!--            <include layout="@layout/profileside_navbar" />-->
-<!--        </com.google.android.material.navigation.NavigationView>-->
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

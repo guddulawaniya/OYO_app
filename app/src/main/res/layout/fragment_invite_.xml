@@ -35,7 +35,8 @@
                 android:src="@drawable/back_arrow"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#151515" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -60,7 +61,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.0"
+                app:tint="#151515" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.appcompat.widget.Toolbar>
@@ -159,7 +161,7 @@
                     android:gravity="center"
                     android:paddingStart="15dp"
                     android:paddingTop="8dp"
-                    android:paddingEnd="6dp"
+                    android:paddingEnd="8dp"
                     android:paddingBottom="8dp"
                     android:text="Share via Facebook"
                     android:textColor="@color/white"
@@ -168,15 +170,15 @@
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/share"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sharebg"
                     android:drawableLeft="@drawable/shareicon"
                     android:drawablePadding="10dp"
                     android:gravity="center"
                     android:padding="8dp"
                     android:text="More"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     app:drawableTint="#6C6969" />
             </LinearLayout>
 
