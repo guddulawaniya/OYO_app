@@ -5,29 +5,18 @@
       <map>
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable-v24/searchbarbg.xml" value="0.2135" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/ac.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/account.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/agent.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/bag.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/booking.xml" value="0.198" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/booking_details.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/bottomsheetbg.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/buttombg.xml" value="0.198" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/buttomtinkcolors.xml" value="0.2135" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/camera.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/car.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/cardtextfieldbg.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/checking_retingbg.xml" value="0.1975" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/closeicon.xml" value="0.2555" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/credit_card-48px.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/crosscircle.xml" value="0.2515" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/detailiconbg.xml" value="0.2515" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/filter.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/findoyobg.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/gameicon.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/help.xml" value="0.198" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/homeicon.xml" value="0.198" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/imageroundcornerbg.xml" value="0.198" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/invite_icon.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/invitecornerroundbggg.xml" value="0.2545" />
@@ -39,68 +28,48 @@
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/locationbg.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/locationicon.xml" value="0.1975" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/lock.xml" value="0.2135" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/minimize_line.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/mostbookinglasthours.xml" value="0.1975" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/netbankingbg.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/offerbg.xml" value="0.1975" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/okay.xml" value="0.215" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/person.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/profilesidenavbarbg.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/ratingbg.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/referbg.xml" value="0.1975" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/safe_paymentbg.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/searchbg.xml" value="0.2135" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/select_button_senitised_room.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/share.xml" value="0.2555" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/sharebg.xml" value="0.1975" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/shareicon.xml" value="0.1975" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/supervisor.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/translate.xml" value="0.2135" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/user.xml" value="0.198" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/walleticon.xml" value="0.2135" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/warning.xml" value="0.215" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/drawable/wizardbg.xml" value="0.1975" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/about_oyo.xml" value="0.152" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_detail.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_detail.xml" value="0.72" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_faqs.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_full_image.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_fullimage.xml" value="0.21693840579710144" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_notification.xml" value="0.21693840579710144" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_profile_sidebar.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_search.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_profile_sidebar.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_search.xml" value="0.31007751937984496" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_search2.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_side_profile.xml" value="0.21693840579710144" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/activity_webview.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/amentities.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/best_offer_for_your.xml" value="0.4632086851628468" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/booking_detail.xml" value="0.2" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/bottom_price_show.xml" value="0.2" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/best_offer_for_your.xml" value="0.4" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/city_sample.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/destination_sample.xml" value="0.4" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/detailimageview_card.xml" value="0.21693840579710144" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/eciting_offers.xml" value="1.0" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_all_amenities.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/eciting_offers.xml" value="0.264" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_bookings_.xml" value="0.264" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_card_fragment.xml" value="0.536" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_help_.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_home_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_help_.xml" value="0.2359375" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_home_fragment.xml" value="0.25737463126843657" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_invite_.xml" value="0.536" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_offer_.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_payment_bottom_sheet.xml" value="0.4902962206332993" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/fragment_offer_.xml" value="0.536" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/gridelayour_sample.xml" value="0.17481884057971014" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/image_sample.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/left_side_help_drawer_sample.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/location_sample.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/products_title_detail.xml" value="0.39366883116883117" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/products_title_detail.xml" value="0.6" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/productslider_sample.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/profileside_navbar.xml" value="0.264" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/rating_layout.xml" value="0.536" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/recommneded_sample_card.xml" value="0.72" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/recommneded_sample_card.xml" value="0.2" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/recyclerviewhorizontal_sample.xml" value="0.20427350427350427" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/review_sample.xml" value="0.6" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/rules_policies.xml" value="0.4" />
-        <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/sanitised_room.xml" value="0.6" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/scolling_content.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/layout/searchbg.xml" value="0.21693840579710144" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/oyo_app/app/src/main/res/menu/faqsmenu.xml" value="0.24895833333333334" />
